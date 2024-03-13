@@ -1,0 +1,2556 @@
+{
+  "meta": {
+    "version": "1.21.0",
+    "datetime": "2024-03-13 17:30:56.940563+00:00",
+    "description": "Test lists for performing TG-66 CT daily and monthly QA items.",
+    "contact": "James Kerns (jkerns@radformation.com)",
+    "name": "tg66_ct_daily_monthly",
+    "id": "a17bea5c-4a19-40b8-9ac3-53ff911d7adc"
+  },
+  "models": {
+    "tests": [
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Gantry lasers vs center of imaging plane",
+          "display_name": "",
+          "slug": "tg66_daily_gantry_lasers_vs_imaging_plane",
+          "description": "Measure the gantry lasers versus the imaging plane",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "Gantry lasers vs center of imaging plane"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "LDPE HU (CT Monthly)",
+          "display_name": "",
+          "slug": "ldpe_hu_tg66_monthly",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_monthly[\"ctp404\"][\"hu_rois\"][\"data\"][\"LDPE\"][\"value\"]\n",
+          "formatting": "%.2f",
+          "default_reference": [
+            "numerical",
+            -104.0
+          ],
+          "default_tolerance": [
+            "Absolute(-5.000, -3.000, 3.000, 5.000)"
+          ]
+        },
+        "natural_key": [
+          "LDPE HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -104.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-5.000, -3.000, 3.000, 5.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CT couch vert & long motion",
+          "display_name": "",
+          "slug": "ct_couch_vert_long_motion",
+          "description": "To verify that the table longitudinal motion according to digital indicators is accurate and reproducible",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "CT couch vert & long motion"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Gantry lasers vs imaging plane",
+          "display_name": "",
+          "slug": "gantry_lasers_vs_imaging_plane",
+          "description": "Measure the gantry lasers versus the imaging plane",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "Gantry lasers vs imaging plane"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CatPhan 504 (CT Monthly)",
+          "display_name": "",
+          "slug": "catphan_504_tg66_monthly",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "upload",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "catphan504",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = None",
+          "formatting": "",
+          "default_reference": null,
+          "default_tolerance": null
+        },
+        "natural_key": [
+          "CatPhan 504 (CT Monthly)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CT couch orientation vs imaging plane",
+          "display_name": "",
+          "slug": "ct_couch_orientation_vs_imaging_plane",
+          "description": "To verify that the CT-scanner tabletop is level and orthogonal with the imaging plane",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.800, 1.800, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "CT couch orientation vs imaging plane"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.800, 1.800, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Lateral wall lasers to scan plane distance",
+          "display_name": "",
+          "slug": "lateral_wall_lasers_vs_gantry_lasers",
+          "description": "To verify that lateral wall lasers are accurately spaced from the scan plane. This distance is used for patient localization marking",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            400.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "Lateral wall lasers to scan plane distance"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              400.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CT In-plane spatial integrity (mm), Monthly",
+          "display_name": "",
+          "slug": "ct_inplane_spatial_integrity_tg66_monthly",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_monthly[\"ctp404\"][\"avg_line_distance_mm\"][\"data\"]\n",
+          "formatting": "%.1f",
+          "default_reference": [
+            "numerical",
+            50.0
+          ],
+          "default_tolerance": null
+        },
+        "natural_key": [
+          "CT In-plane spatial integrity (mm), Monthly"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              50.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Ceiling laser vs imaging plane",
+          "display_name": "",
+          "slug": "ceiling_laser_vs_imaging_plane",
+          "description": "To verify that the ceiling laser is orthogonal with the imaging plane",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.800, 1.800, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "Ceiling laser vs imaging plane"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.800, 1.800, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Wall laser orientation vs imaging plane",
+          "display_name": "",
+          "slug": "wall_laser_orientation_vs_imaging_plane",
+          "description": "To verify that the wall lasers are parallel and orthogonal with the imaging plane over the full length of laser projection",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.800, 1.800, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "Wall laser orientation vs imaging plane"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.800, 1.800, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Teflon HU (CT Monthly)",
+          "display_name": "",
+          "slug": "teflon_hu_tg66_monthly",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_monthly[\"ctp404\"][\"hu_rois\"][\"data\"][\"Teflon\"][\"value\"]\n",
+          "formatting": "%.2f",
+          "default_reference": [
+            "numerical",
+            1000.0
+          ],
+          "default_tolerance": [
+            "Absolute(-5.000, -3.000, 3.000, 5.000)"
+          ]
+        },
+        "natural_key": [
+          "Teflon HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              1000.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-5.000, -3.000, 3.000, 5.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Air HU (CT Monthly)",
+          "display_name": "",
+          "slug": "air_hu_tg66_monthly",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_monthly[\"ctp404\"][\"hu_rois\"][\"data\"][\"Air\"][\"value\"]\n",
+          "formatting": "%.2f",
+          "default_reference": [
+            "numerical",
+            -1000.0
+          ],
+          "default_tolerance": [
+            "Absolute(-5.000, -3.000, 3.000, 5.000)"
+          ]
+        },
+        "natural_key": [
+          "Air HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -1000.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-5.000, -3.000, 3.000, 5.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CT number, water (HU)",
+          "display_name": "",
+          "slug": "tg66_ct_water",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_daily[\"ctp486\"][\"rois\"][\"data\"][\"Center\"][\"value\"]\n",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-5.000, -3.000, 3.000, 5.000)"
+          ]
+        },
+        "natural_key": [
+          "CT number, water (HU)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-5.000, -3.000, 3.000, 5.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Delrin HU (CT Monthly)",
+          "display_name": "",
+          "slug": "delrin_hu_tg66_monthly",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_monthly[\"ctp404\"][\"hu_rois\"][\"data\"][\"Delrin\"][\"value\"]\n",
+          "formatting": "%.2f",
+          "default_reference": [
+            "numerical",
+            365.0
+          ],
+          "default_tolerance": [
+            "Absolute(-5.000, -3.000, 3.000, 5.000)"
+          ]
+        },
+        "natural_key": [
+          "Delrin HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              365.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-5.000, -3.000, 3.000, 5.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CT Image Noise (lp/mm)",
+          "display_name": "",
+          "slug": "tg_66_daily_ct_image_noise",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_daily[\"ctp528\"][\"mtf_50\"][\"data\"]\n",
+          "formatting": "",
+          "default_reference": null,
+          "default_tolerance": null
+        },
+        "natural_key": [
+          "CT Image Noise (lp/mm)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CatPhan 504 (CT Daily)",
+          "display_name": "",
+          "slug": "catphan_504_tg66_daily",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "upload",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "catphan504",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": true,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = None",
+          "formatting": "",
+          "default_reference": null,
+          "default_tolerance": null
+        },
+        "natural_key": [
+          "CatPhan 504 (CT Daily)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "CT In-plane spatial integrity (mm), Daily",
+          "display_name": "",
+          "slug": "ct_inplane_spatial_integrity_daily",
+          "description": "",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "result = catphan_504_tg66_daily[\"ctp404\"][\"avg_line_distance_mm\"][\"data\"]\n",
+          "formatting": "%.1f",
+          "default_reference": [
+            "numerical",
+            50.0
+          ],
+          "default_tolerance": null
+        },
+        "natural_key": [
+          "CT In-plane spatial integrity (mm), Daily"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              50.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "Field Uniformity (HU), Monthly",
+          "display_name": "",
+          "slug": "tg66_monthly_field_uniformity",
+          "description": "To verify a uniform scan produces similar HU values within a near-water phantom",
+          "category": [
+            "Imaging"
+          ],
+          "chart_visibility": true,
+          "type": "composite",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "uniformity_roi_values = [\n    roi[\"value\"] for roi in catphan_504_tg66_monthly[\"ctp486\"][\"rois\"][\"data\"].values()\n]\nrange = max(uniformity_roi_values) - min(uniformity_roi_values)\nresult = range\n",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-5.000, -3.000, 3.000, 5.000)"
+          ]
+        },
+        "natural_key": [
+          "Field Uniformity (HU), Monthly"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Imaging"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-5.000, -3.000, 3.000, 5.000)"
+            ]
+          ]
+        }
+      }
+    ],
+    "test_lists": [
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-66 CT Monthly",
+          "slug": "tg66_monthly",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg66_monthly"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ],
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg66_monthly_imaging",
+              "Air HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Lateral wall lasers to scan plane distance"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Wall laser orientation vs imaging plane"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "LDPE HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Ceiling laser vs imaging plane"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "Delrin HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "Teflon HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "CT couch orientation vs imaging plane"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "CT couch vert & long motion"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "CT In-plane spatial integrity (mm), Monthly"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "Field Uniformity (HU), Monthly"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "CatPhan 504 (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Gantry lasers vs imaging plane"
+            ]
+          ],
+          "sublists": [
+            [
+              "tg66_monthly",
+              "tg66_monthly_mechanical"
+            ],
+            [
+              "tg66_monthly",
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-66 Monthly Mechanical",
+          "slug": "tg66_monthly_mechanical",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg66_monthly_mechanical",
+              "Lateral wall lasers to scan plane distance"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Wall laser orientation vs imaging plane"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Ceiling laser vs imaging plane"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "CT couch orientation vs imaging plane"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "CT couch vert & long motion"
+            ],
+            [
+              "tg66_monthly_mechanical",
+              "Gantry lasers vs imaging plane"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-66 Monthly Imaging",
+          "slug": "tg66_monthly_imaging",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg66_monthly_imaging"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg66_monthly_imaging",
+              "Air HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "LDPE HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "Delrin HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "Teflon HU (CT Monthly)"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "CT In-plane spatial integrity (mm), Monthly"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "Field Uniformity (HU), Monthly"
+            ],
+            [
+              "tg66_monthly_imaging",
+              "CatPhan 504 (CT Monthly)"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-66 CT Daily",
+          "slug": "tg66_daily",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg66_daily"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg66_daily_mechanical"
+            ],
+            [
+              "tg66_daily_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg66_daily_imaging",
+              "CatPhan 504 (CT Daily)"
+            ],
+            [
+              "tg66_daily_imaging",
+              "CT number, water (HU)"
+            ],
+            [
+              "tg66_daily_imaging",
+              "CT Image Noise (lp/mm)"
+            ],
+            [
+              "tg66_daily_imaging",
+              "CT In-plane spatial integrity (mm), Daily"
+            ],
+            [
+              "tg66_daily_mechanical",
+              "Gantry lasers vs center of imaging plane"
+            ]
+          ],
+          "sublists": [
+            [
+              "tg66_daily",
+              "tg66_daily_mechanical"
+            ],
+            [
+              "tg66_daily",
+              "tg66_daily_imaging"
+            ]
+          ],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-66 Daily Mechanical",
+          "slug": "tg66_daily_mechanical",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg66_daily_mechanical"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg66_daily_mechanical",
+              "Gantry lasers vs center of imaging plane"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-66 Daily Imaging",
+          "slug": "tg66_daily_imaging",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg66_daily_imaging"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg66_daily_imaging",
+              "CatPhan 504 (CT Daily)"
+            ],
+            [
+              "tg66_daily_imaging",
+              "CT number, water (HU)"
+            ],
+            [
+              "tg66_daily_imaging",
+              "CT Image Noise (lp/mm)"
+            ],
+            [
+              "tg66_daily_imaging",
+              "CT In-plane spatial integrity (mm), Daily"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "categories": [
+      {
+        "model": "qa.category",
+        "fields": {
+          "name": "Mechanical",
+          "slug": "mechanical",
+          "description": "Mechanical-related items"
+        },
+        "natural_key": [
+          "Mechanical"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.category",
+        "fields": {
+          "name": "Imaging",
+          "slug": "imaging",
+          "description": "Imaging-related items"
+        },
+        "natural_key": [
+          "Imaging"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "references": [
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by Lateral wall lasers to scan plane distance",
+          "type": "numerical",
+          "value": 400.0
+        },
+        "natural_key": [
+          "numerical",
+          400.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by Lasers :: Lasers Left Sagittal",
+          "type": "numerical",
+          "value": 0.0
+        },
+        "natural_key": [
+          "numerical",
+          0.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by In-plane spatial integrity",
+          "type": "numerical",
+          "value": 50.0
+        },
+        "natural_key": [
+          "numerical",
+          50.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by HU Linearity ROI - Air",
+          "type": "numerical",
+          "value": -1000.0
+        },
+        "natural_key": [
+          "numerical",
+          -1000.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by HU Linearity ROI - Delrin",
+          "type": "numerical",
+          "value": 365.0
+        },
+        "natural_key": [
+          "numerical",
+          365.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by HU Linearity ROI - Teflon",
+          "type": "numerical",
+          "value": 1000.0
+        },
+        "natural_key": [
+          "numerical",
+          1000.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by HU Linearity ROI - LDPE",
+          "type": "numerical",
+          "value": -104.0
+        },
+        "natural_key": [
+          "numerical",
+          -104.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "unit_classes": [],
+    "test_list_memberships": [
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "Air HU (CT Monthly)"
+          ],
+          "order": 2
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "Air HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Air HU (CT Monthly)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_mechanical"
+          ],
+          "test": [
+            "Lateral wall lasers to scan plane distance"
+          ],
+          "order": 2
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical",
+          "Lateral wall lasers to scan plane distance"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Lateral wall lasers to scan plane distance"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_mechanical"
+          ],
+          "test": [
+            "Wall laser orientation vs imaging plane"
+          ],
+          "order": 3
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical",
+          "Wall laser orientation vs imaging plane"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Wall laser orientation vs imaging plane"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "LDPE HU (CT Monthly)"
+          ],
+          "order": 3
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "LDPE HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "LDPE HU (CT Monthly)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_mechanical"
+          ],
+          "test": [
+            "Ceiling laser vs imaging plane"
+          ],
+          "order": 4
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical",
+          "Ceiling laser vs imaging plane"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Ceiling laser vs imaging plane"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "Delrin HU (CT Monthly)"
+          ],
+          "order": 4
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "Delrin HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Delrin HU (CT Monthly)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "Teflon HU (CT Monthly)"
+          ],
+          "order": 5
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "Teflon HU (CT Monthly)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Teflon HU (CT Monthly)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_mechanical"
+          ],
+          "test": [
+            "CT couch orientation vs imaging plane"
+          ],
+          "order": 5
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical",
+          "CT couch orientation vs imaging plane"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CT couch orientation vs imaging plane"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_mechanical"
+          ],
+          "test": [
+            "CT couch vert & long motion"
+          ],
+          "order": 6
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical",
+          "CT couch vert & long motion"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CT couch vert & long motion"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "CT In-plane spatial integrity (mm), Monthly"
+          ],
+          "order": 6
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "CT In-plane spatial integrity (mm), Monthly"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CT In-plane spatial integrity (mm), Monthly"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "Field Uniformity (HU), Monthly"
+          ],
+          "order": 7
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "Field Uniformity (HU), Monthly"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Field Uniformity (HU), Monthly"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_daily_imaging"
+          ],
+          "test": [
+            "CT Image Noise (lp/mm)"
+          ],
+          "order": 7
+        },
+        "natural_key": [
+          "tg66_daily_imaging",
+          "CT Image Noise (lp/mm)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CT Image Noise (lp/mm)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_daily_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_daily_imaging"
+          ],
+          "test": [
+            "CT In-plane spatial integrity (mm), Daily"
+          ],
+          "order": 8
+        },
+        "natural_key": [
+          "tg66_daily_imaging",
+          "CT In-plane spatial integrity (mm), Daily"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CT In-plane spatial integrity (mm), Daily"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_daily_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_daily_imaging"
+          ],
+          "test": [
+            "CatPhan 504 (CT Daily)"
+          ],
+          "order": 1
+        },
+        "natural_key": [
+          "tg66_daily_imaging",
+          "CatPhan 504 (CT Daily)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CatPhan 504 (CT Daily)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_daily_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_mechanical"
+          ],
+          "test": [
+            "Gantry lasers vs imaging plane"
+          ],
+          "order": 1
+        },
+        "natural_key": [
+          "tg66_monthly_mechanical",
+          "Gantry lasers vs imaging plane"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Gantry lasers vs imaging plane"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_daily_imaging"
+          ],
+          "test": [
+            "CT number, water (HU)"
+          ],
+          "order": 2
+        },
+        "natural_key": [
+          "tg66_daily_imaging",
+          "CT number, water (HU)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CT number, water (HU)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_daily_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_monthly_imaging"
+          ],
+          "test": [
+            "CatPhan 504 (CT Monthly)"
+          ],
+          "order": 1
+        },
+        "natural_key": [
+          "tg66_monthly_imaging",
+          "CatPhan 504 (CT Monthly)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "CatPhan 504 (CT Monthly)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg66_daily_mechanical"
+          ],
+          "test": [
+            "Gantry lasers vs center of imaging plane"
+          ],
+          "order": 1
+        },
+        "natural_key": [
+          "tg66_daily_mechanical",
+          "Gantry lasers vs center of imaging plane"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "Gantry lasers vs center of imaging plane"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg66_daily_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "sublists": [
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg66_monthly"
+          ],
+          "child": [
+            "tg66_monthly_mechanical"
+          ],
+          "collapse": false,
+          "order": 1
+        },
+        "natural_key": [
+          "tg66_monthly",
+          "tg66_monthly_mechanical"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg66_monthly"
+            ],
+            [
+              "tg66_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg66_monthly"
+          ],
+          "child": [
+            "tg66_monthly_imaging"
+          ],
+          "collapse": false,
+          "order": 2
+        },
+        "natural_key": [
+          "tg66_monthly",
+          "tg66_monthly_imaging"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg66_monthly"
+            ],
+            [
+              "tg66_monthly_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg66_daily"
+          ],
+          "child": [
+            "tg66_daily_mechanical"
+          ],
+          "collapse": false,
+          "order": 1
+        },
+        "natural_key": [
+          "tg66_daily",
+          "tg66_daily_mechanical"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg66_daily"
+            ],
+            [
+              "tg66_daily_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg66_daily"
+          ],
+          "child": [
+            "tg66_daily_imaging"
+          ],
+          "collapse": false,
+          "order": 2
+        },
+        "natural_key": [
+          "tg66_daily",
+          "tg66_daily_imaging"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg66_daily"
+            ],
+            [
+              "tg66_daily_imaging"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "tolerances": [
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-2.000, -1.800, 1.800, 2.000)",
+          "type": "absolute",
+          "act_low": -2.0,
+          "tol_low": -1.8,
+          "tol_high": 1.8,
+          "act_high": 2.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-2.000, -1.800, 1.800, 2.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-2.000, -1.000, 1.000, 2.000)",
+          "type": "absolute",
+          "act_low": -2.0,
+          "tol_low": -1.0,
+          "tol_high": 1.0,
+          "act_high": 2.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-2.000, -1.000, 1.000, 2.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-1.000, -0.500, 0.500, 1.000)",
+          "type": "absolute",
+          "act_low": -1.0,
+          "tol_low": -0.5,
+          "tol_high": 0.5,
+          "act_high": 1.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-1.000, -0.500, 0.500, 1.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-5.000, -3.000, 3.000, 5.000)",
+          "type": "absolute",
+          "act_low": -5.0,
+          "tol_low": -3.0,
+          "tol_high": 3.0,
+          "act_high": 5.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-5.000, -3.000, 3.000, 5.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2559 @@
+{
+  "meta": {
+    "version": "1.21.0",
+    "datetime": "2024-03-13 17:17:34.477562+00:00",
+    "description": "Test lists that are mostly faithful to TG-142 requirements and lean on the literal side vs optimal flow.",
+    "contact": "James Kerns (jkerns@radformation.com)",
+    "name": "tg142_daily",
+    "id": "578467ee-4e7d-404f-9c74-7a9d3fe31921"
+  },
+  "models": {
+    "tests": [
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Door/Beam interlock",
+          "display_name": "",
+          "slug": "tg_142_daily_doorbeam_interlock",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Door/Beam interlock"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Collimator size",
+          "display_name": "",
+          "slug": "tg_142_daily_collimator_size",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            20.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Collimator size"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              20.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Right Axial",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_right_axial",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Right Axial"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Collision interlocks (CBCT)",
+          "display_name": "",
+          "slug": "tg_142_daily_collision_interlocks_cbct",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Collision interlocks (CBCT)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Door interference interlock",
+          "display_name": "",
+          "slug": "tg_142_daily_door_interference_interlock",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Door interference interlock"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Collision interlocks (EPID)",
+          "display_name": "",
+          "slug": "tg_142_daily_collision_interlocks_epid",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Collision interlocks (EPID)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Wedge checkout",
+          "display_name": "",
+          "slug": "tg_142_daily_wedge_checkout",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Wedge checkout"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Left Sagittal",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_left_sagittal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Left Sagittal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Left Coronal",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_left_coronal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Left Coronal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Optical Distance Indicator",
+          "display_name": "",
+          "slug": "tg_142_daily_optical_distance_indicator",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            100.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Optical Distance Indicator"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              100.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Top Sagittal",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_top_sagittal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Top Sagittal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Beam on indicator",
+          "display_name": "",
+          "slug": "tg_142_daily_beam_on_indicator",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Beam on indicator"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: A/V Functionality",
+          "display_name": "",
+          "slug": "tg_142_daily_av_functionality",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: A/V Functionality"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Radiation area monitor",
+          "display_name": "",
+          "slug": "tg_142_daily_radiation_area_monitor",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Radiation area monitor"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Imaging/Treatment coincidence (CBCT)",
+          "display_name": "",
+          "slug": "tg_142_daily_imaging_treatment_coincidence_cbct",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Imaging/Treatment coincidence (CBCT)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Imaging/Treatment coincidence (EPID)",
+          "display_name": "",
+          "slug": "tg_142_daily_imaging_treatment_coincidence_epid",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Imaging/Treatment coincidence (EPID)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Positioning/Repositioning (CBCT)",
+          "display_name": "",
+          "slug": "tg_142_daily_positioning_repositioning_cbct",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Positioning/Repositioning (CBCT)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Right Coronal",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_right_coronal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Right Coronal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Inferior Sagittal",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_inferior_sagittal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Inferior Sagittal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Positioning/Repositioning (EPID)",
+          "display_name": "",
+          "slug": "tg_142_daily_positioning_repositioning_epid",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Positioning/Repositioning (EPID)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Lasers :: Top Axial",
+          "display_name": "",
+          "slug": "tg_142_daily_lasers_top_axial",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Lasers :: Top Axial"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Daily :: Stereotactic Interlocks",
+          "display_name": "",
+          "slug": "tg_142_daily_stereotactic_interlocks",
+          "description": "",
+          "category": [
+            "Safety"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Daily :: Stereotactic Interlocks"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Safety"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      }
+    ],
+    "test_lists": [
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-142 Daily QA",
+          "slug": "tg_142_daily_qa",
+          "description": "A typical TG-142 daily morning checkout.",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg_142_daily_qa"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Left Sagittal"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Left Coronal"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Top Axial"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Top Sagittal"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Right Axial"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Right Coronal"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Lasers :: Inferior Sagittal"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Optical Distance Indicator"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Collimator size"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Door/Beam interlock"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Door interference interlock"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: A/V Functionality"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Stereotactic Interlocks"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Radiation area monitor"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Beam on indicator"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Collision interlocks (EPID)"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Collision interlocks (CBCT)"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Positioning/Repositioning (EPID)"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Positioning/Repositioning (CBCT)"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Imaging/Treatment coincidence (EPID)"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Imaging/Treatment coincidence (CBCT)"
+            ],
+            [
+              "tg_142_daily_qa",
+              "TG-142 Daily :: Wedge checkout"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "categories": [
+      {
+        "model": "qa.category",
+        "fields": {
+          "name": "Safety",
+          "slug": "safety",
+          "description": "Safety-related items"
+        },
+        "natural_key": [
+          "Safety"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.category",
+        "fields": {
+          "name": "Mechanical",
+          "slug": "mechanical",
+          "description": "Mechanical-related items"
+        },
+        "natural_key": [
+          "Mechanical"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "references": [
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by Lasers :: Lasers Left Sagittal",
+          "type": "numerical",
+          "value": 0.0
+        },
+        "natural_key": [
+          "numerical",
+          0.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by Boolean",
+          "type": "boolean",
+          "value": 1.0
+        },
+        "natural_key": [
+          "boolean",
+          1.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Collimator size",
+          "type": "numerical",
+          "value": 20.0
+        },
+        "natural_key": [
+          "numerical",
+          20.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Daily :: Optical Distance Indicator",
+          "type": "numerical",
+          "value": 100.0
+        },
+        "natural_key": [
+          "numerical",
+          100.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "unit_classes": [],
+    "test_list_memberships": [
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Left Sagittal"
+          ],
+          "order": 1
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Left Sagittal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Left Sagittal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Left Coronal"
+          ],
+          "order": 2
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Left Coronal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Left Coronal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Top Axial"
+          ],
+          "order": 3
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Top Axial"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Top Axial"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Top Sagittal"
+          ],
+          "order": 4
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Top Sagittal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Top Sagittal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Right Axial"
+          ],
+          "order": 5
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Right Axial"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Right Axial"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Right Coronal"
+          ],
+          "order": 6
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Right Coronal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Right Coronal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Lasers :: Inferior Sagittal"
+          ],
+          "order": 7
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Lasers :: Inferior Sagittal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Lasers :: Inferior Sagittal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Optical Distance Indicator"
+          ],
+          "order": 8
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Optical Distance Indicator"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Optical Distance Indicator"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Collimator size"
+          ],
+          "order": 9
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Collimator size"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Collimator size"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Door/Beam interlock"
+          ],
+          "order": 10
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Door/Beam interlock"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Door/Beam interlock"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Door interference interlock"
+          ],
+          "order": 11
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Door interference interlock"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Door interference interlock"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: A/V Functionality"
+          ],
+          "order": 12
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: A/V Functionality"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: A/V Functionality"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Stereotactic Interlocks"
+          ],
+          "order": 13
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Stereotactic Interlocks"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Stereotactic Interlocks"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Radiation area monitor"
+          ],
+          "order": 14
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Radiation area monitor"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Radiation area monitor"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Beam on indicator"
+          ],
+          "order": 15
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Beam on indicator"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Beam on indicator"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Collision interlocks (EPID)"
+          ],
+          "order": 16
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Collision interlocks (EPID)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Collision interlocks (EPID)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Collision interlocks (CBCT)"
+          ],
+          "order": 17
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Collision interlocks (CBCT)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Collision interlocks (CBCT)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Positioning/Repositioning (EPID)"
+          ],
+          "order": 18
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Positioning/Repositioning (EPID)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Positioning/Repositioning (EPID)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Positioning/Repositioning (CBCT)"
+          ],
+          "order": 19
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Positioning/Repositioning (CBCT)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Positioning/Repositioning (CBCT)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Imaging/Treatment coincidence (EPID)"
+          ],
+          "order": 20
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Imaging/Treatment coincidence (EPID)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Imaging/Treatment coincidence (EPID)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Imaging/Treatment coincidence (CBCT)"
+          ],
+          "order": 21
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Imaging/Treatment coincidence (CBCT)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Imaging/Treatment coincidence (CBCT)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_daily_qa"
+          ],
+          "test": [
+            "TG-142 Daily :: Wedge checkout"
+          ],
+          "order": 22
+        },
+        "natural_key": [
+          "tg_142_daily_qa",
+          "TG-142 Daily :: Wedge checkout"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Daily :: Wedge checkout"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_daily_qa"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "sublists": [],
+    "tolerances": [
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Boolean(Action on fail)",
+          "type": "boolean",
+          "act_low": null,
+          "tol_low": null,
+          "tol_high": null,
+          "act_high": null,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Boolean(Action on fail)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-2.000, -1.000, 1.000, 2.000)",
+          "type": "absolute",
+          "act_low": -2.0,
+          "tol_low": -1.0,
+          "tol_high": 1.0,
+          "act_high": 2.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-2.000, -1.000, 1.000, 2.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-1.000, -0.500, 0.500, 1.000)",
+          "type": "absolute",
+          "act_low": -1.0,
+          "tol_low": -0.5,
+          "tol_high": 0.5,
+          "act_high": 1.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-1.000, -0.500, 0.500, 1.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ]
+  }
+}

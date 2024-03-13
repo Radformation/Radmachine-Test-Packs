@@ -1,0 +1,5444 @@
+{
+  "meta": {
+    "version": "1.21.0",
+    "datetime": "2024-03-13 17:16:04.737269+00:00",
+    "description": "Test lists that are mostly faithful to TG-142 requirements and lean on the literal side vs optimal flow.",
+    "contact": "James Kerns (jkerns@radformation.com)",
+    "name": "tg142_monthly",
+    "id": "9a6de388-f7ed-4e5a-923b-12fc776e151d"
+  },
+  "models": {
+    "tests": [
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Accessory trays",
+          "display_name": "",
+          "slug": "tg_142_monthly_accessory_trays",
+          "description": "Measure all accessory trays used. Enter the value of the worst-performing tray.",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Accessory trays"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: LNG (-10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_lng_10n",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: LNG (-10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Wedge placement accuracy",
+          "display_name": "",
+          "slug": "tg_142_monthly_wedge_placement_accuracy",
+          "description": "Physical wedge placement accuracy",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Wedge placement accuracy"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Gantry indicator @  90",
+          "display_name": "",
+          "slug": "tg_142_monthly_gantry_indicator_90",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            90.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Gantry indicator @  90"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              90.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Inferior Sagittal",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_inferior_sagittal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Inferior Sagittal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_x1_10",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Left Axial",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_left_axial",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Left Axial"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Right Axial",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_right_axial",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Right Axial"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Collimator indicator @  90",
+          "display_name": "",
+          "slug": "tg_142_monthly_collimator_indicator_90",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            90.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Collimator indicator @  90"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              90.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: VRT (-10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_vrt_10n",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: VRT (-10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Gating Interlock",
+          "display_name": "",
+          "slug": "tg_142_monthly_gating_interlock",
+          "description": "",
+          "category": [
+            "Dosimetry"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Gating Interlock"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Dosimetry"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: ROT (90)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_rot_90",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            90.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500, -0.450, 0.450, 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: ROT (90)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              90.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500, -0.450, 0.450, 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Collimator indicator @  270",
+          "display_name": "",
+          "slug": "tg_142_monthly_collimator_indicator_270",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            270.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Collimator indicator @  270"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              270.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Top Axial",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_top_axial",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Top Axial"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (symmetric) :: Y",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_symmetric_y",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            20.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (symmetric) :: Y"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              20.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Collimator indicator @  0",
+          "display_name": "",
+          "slug": "tg_142_monthly_collimator_indicator_0",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Collimator indicator @  0"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Safety :: Laserguard",
+          "display_name": "",
+          "slug": "tg_142_monthly_laserguard",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Safety :: Laserguard"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_x2_2",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -2.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -2.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Gantry indicator @  180",
+          "display_name": "",
+          "slug": "tg_142_monthly_gantry_indicator_180",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            180.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Gantry indicator @  180"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              180.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_y2_10p",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Latching of wedges, blocking tray",
+          "display_name": "",
+          "slug": "tg_142_monthly_latch_wedge_tray",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Latching of wedges, blocking tray"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Right Coronal",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_right_coronal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Right Coronal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Compensator placement accuracy",
+          "display_name": "",
+          "slug": "tg_142_monthly_compensator_placement_accuracy",
+          "description": "Compensator placement accuracy",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Compensator placement accuracy"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Left Coronal",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_left_coronal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Left Coronal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (symmetric) :: X",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_symmetric_x",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            20.0
+          ],
+          "default_tolerance": [
+            "Absolute(-2.000, -1.000, 1.000, 2.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (symmetric) :: X"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              20.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-2.000, -1.000, 1.000, 2.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_x2_10",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_y1_10n",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_y1_10p",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: ODI @ 80",
+          "display_name": "",
+          "slug": "tg_142_odi_80",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            80.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: ODI @ 80"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              80.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: VRT (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_vrt_10p",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: VRT (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: ODI @ 100",
+          "display_name": "",
+          "slug": "tg_142_odi_100",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            100.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: ODI @ 100"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              100.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_y2_10n",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Crosshair centering",
+          "display_name": "",
+          "slug": "tg_142_monthly_crosshair_centering",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Crosshair centering"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: ODI @ 90",
+          "display_name": "",
+          "slug": "tg_142_odi_90",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            90.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: ODI @ 90"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              90.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Gantry indicator @  0",
+          "display_name": "",
+          "slug": "tg_142_monthly_gantry_indicator_0",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Gantry indicator @  0"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)",
+          "display_name": "",
+          "slug": "tg_142_monthly_jaw_position_asymmetric_x1_2",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -2.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -2.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: LAT (-10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_lat_10n",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            -10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: LAT (-10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              -10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: LAT (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_lat_10p",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: LAT (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Gantry indicator @  270",
+          "display_name": "",
+          "slug": "tg_142_monthly_gantry_indicator_270",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            270.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Gantry indicator @  270"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              270.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Couch position :: LNG (+10)",
+          "display_name": "",
+          "slug": "tg_142_monthly_couch_lng_10p",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            10.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Couch position :: LNG (+10)"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              10.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Lasers :: Top Sagittal",
+          "display_name": "",
+          "slug": "tg_142_monthly_lasers_top_sagittal",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            0.0
+          ],
+          "default_tolerance": [
+            "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Lasers :: Top Sagittal"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              0.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Phase, Amplitude beam control",
+          "display_name": "",
+          "slug": "tg_142_monthly_phase_amplitude_beam_control",
+          "description": "",
+          "category": [
+            "Dosimetry"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Phase, Amplitude beam control"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Dosimetry"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: Collimator indicator @  180",
+          "display_name": "",
+          "slug": "tg_142_monthly_collimator_indicator_180",
+          "description": "",
+          "category": [
+            "Mechanical"
+          ],
+          "chart_visibility": true,
+          "type": "simple",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "numerical",
+            180.0
+          ],
+          "default_tolerance": [
+            "Absolute(-1.000, -0.500, 0.500, 1.000)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: Collimator indicator @  180"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Mechanical"
+            ]
+          ],
+          "references": [
+            [
+              "numerical",
+              180.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Absolute(-1.000, -0.500, 0.500, 1.000)"
+            ]
+          ]
+        }
+      },
+      {
+        "model": "qa.test",
+        "fields": {
+          "name": "TG-142 Monthly :: In-room respiratory monitoring",
+          "display_name": "",
+          "slug": "tg_142_monthly_respiratory_monitoring",
+          "description": "",
+          "category": [
+            "Dosimetry"
+          ],
+          "chart_visibility": true,
+          "type": "boolean",
+          "statistic": "",
+          "num_stat_inputs": null,
+          "analysis_type": "",
+          "flag_when": null,
+          "true_value_display": "Yes",
+          "false_value_display": "No",
+          "hidden": false,
+          "skip_without_comment": false,
+          "require_comment": false,
+          "display_image": false,
+          "choices": null,
+          "constant_value": null,
+          "wrap_low": null,
+          "wrap_high": null,
+          "unit_class_lookup": null,
+          "calculation_procedure": "",
+          "formatting": "",
+          "default_reference": [
+            "boolean",
+            1.0
+          ],
+          "default_tolerance": [
+            "Boolean(Action on fail)"
+          ]
+        },
+        "natural_key": [
+          "TG-142 Monthly :: In-room respiratory monitoring"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [
+            [
+              "Dosimetry"
+            ]
+          ],
+          "references": [
+            [
+              "boolean",
+              1.0
+            ]
+          ],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": [
+            [
+              "Boolean(Action on fail)"
+            ]
+          ]
+        }
+      }
+    ],
+    "test_lists": [
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-142 Monthly",
+          "slug": "tg_142_monthly",
+          "description": "A typical monthly QA session including mechanical, safety, dosimetry, and imaging.",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg_142_monthly"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg_142_monthly_gating"
+            ],
+            [
+              "tg_142_monthly_safety"
+            ],
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  0"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  90"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  180"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  270"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Accessory trays"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (symmetric) :: X"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (symmetric) :: Y"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Crosshair centering"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LNG (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LNG (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LAT (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LAT (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: VRT (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: VRT (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: ROT (90)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Wedge placement accuracy"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Compensator placement accuracy"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Latching of wedges, blocking tray"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Left Axial"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Left Coronal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Top Axial"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Top Sagittal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Right Axial"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Right Coronal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Inferior Sagittal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: ODI @ 80"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: ODI @ 90"
+            ],
+            [
+              "tg_142_monthly_gating",
+              "TG-142 Monthly :: Phase, Amplitude beam control"
+            ],
+            [
+              "tg_142_monthly_gating",
+              "TG-142 Monthly :: In-room respiratory monitoring"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: ODI @ 100"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  0"
+            ],
+            [
+              "tg_142_monthly_gating",
+              "TG-142 Monthly :: Gating Interlock"
+            ],
+            [
+              "tg_142_monthly_safety",
+              "TG-142 Monthly :: Safety :: Laserguard"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  90"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  180"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  270"
+            ]
+          ],
+          "sublists": [
+            [
+              "tg_142_monthly",
+              "tg_142_monthly_safety"
+            ],
+            [
+              "tg_142_monthly",
+              "tg_142_monthly_mechanical"
+            ],
+            [
+              "tg_142_monthly",
+              "tg_142_monthly_gating"
+            ]
+          ],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-142 Monthly :: Safety",
+          "slug": "tg_142_monthly_safety",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg_142_monthly_safety"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg_142_monthly_safety",
+              "TG-142 Monthly :: Safety :: Laserguard"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-142 Monthly :: Mechanical",
+          "slug": "tg_142_monthly_mechanical",
+          "description": "Mechanical items for TG-142",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  0"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  90"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  180"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Collimator indicator @  270"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Accessory trays"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (symmetric) :: X"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (symmetric) :: Y"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Crosshair centering"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LNG (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LNG (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LAT (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: LAT (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: VRT (+10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: VRT (-10)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Couch position :: ROT (90)"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Wedge placement accuracy"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Compensator placement accuracy"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Latching of wedges, blocking tray"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Left Axial"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Left Coronal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Top Axial"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Top Sagittal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Right Axial"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Right Coronal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Lasers :: Inferior Sagittal"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: ODI @ 80"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: ODI @ 90"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: ODI @ 100"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  0"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  90"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  180"
+            ],
+            [
+              "tg_142_monthly_mechanical",
+              "TG-142 Monthly :: Gantry indicator @  270"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlist",
+        "fields": {
+          "name": "TG-142 Monthly :: Gating",
+          "slug": "tg_142_monthly_gating",
+          "description": "",
+          "javascript": null,
+          "warning_message": "Do not treat"
+        },
+        "natural_key": [
+          "tg_142_monthly_gating"
+        ],
+        "is_soft_merge_okay": false,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [
+            [
+              "tg_142_monthly_gating",
+              "TG-142 Monthly :: In-room respiratory monitoring"
+            ],
+            [
+              "tg_142_monthly_gating",
+              "TG-142 Monthly :: Gating Interlock"
+            ],
+            [
+              "tg_142_monthly_gating",
+              "TG-142 Monthly :: Phase, Amplitude beam control"
+            ]
+          ],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "categories": [
+      {
+        "model": "qa.category",
+        "fields": {
+          "name": "Mechanical",
+          "slug": "mechanical",
+          "description": "Mechanical-related items"
+        },
+        "natural_key": [
+          "Mechanical"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.category",
+        "fields": {
+          "name": "Dosimetry",
+          "slug": "dosimetry",
+          "description": "Dosimetry-related items"
+        },
+        "natural_key": [
+          "Dosimetry"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "references": [
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by Lasers :: Lasers Left Sagittal",
+          "type": "numerical",
+          "value": 0.0
+        },
+        "natural_key": [
+          "numerical",
+          0.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by Boolean",
+          "type": "boolean",
+          "value": 1.0
+        },
+        "natural_key": [
+          "boolean",
+          1.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Collimator size",
+          "type": "numerical",
+          "value": 20.0
+        },
+        "natural_key": [
+          "numerical",
+          20.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Daily :: Optical Distance Indicator",
+          "type": "numerical",
+          "value": 100.0
+        },
+        "natural_key": [
+          "numerical",
+          100.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: Jaw position (asymmetric) :: X2",
+          "type": "numerical",
+          "value": -10.0
+        },
+        "natural_key": [
+          "numerical",
+          -10.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: Gantry indicator @  90",
+          "type": "numerical",
+          "value": 90.0
+        },
+        "natural_key": [
+          "numerical",
+          90.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: Jaw position (asymmetric) :: X1",
+          "type": "numerical",
+          "value": 10.0
+        },
+        "natural_key": [
+          "numerical",
+          10.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: Gantry indicator @  270",
+          "type": "numerical",
+          "value": 270.0
+        },
+        "natural_key": [
+          "numerical",
+          270.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)",
+          "type": "numerical",
+          "value": -2.0
+        },
+        "natural_key": [
+          "numerical",
+          -2.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: Gantry indicator @  180",
+          "type": "numerical",
+          "value": 180.0
+        },
+        "natural_key": [
+          "numerical",
+          180.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.reference",
+        "fields": {
+          "name": "Default reference created by TG-142 Monthly :: ODI @ 80",
+          "type": "numerical",
+          "value": 80.0
+        },
+        "natural_key": [
+          "numerical",
+          80.0
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "unit_classes": [],
+    "test_list_memberships": [
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Collimator indicator @  0"
+          ],
+          "order": 8
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Collimator indicator @  0"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Collimator indicator @  0"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Collimator indicator @  90"
+          ],
+          "order": 9
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Collimator indicator @  90"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Collimator indicator @  90"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Collimator indicator @  180"
+          ],
+          "order": 10
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Collimator indicator @  180"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Collimator indicator @  180"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Collimator indicator @  270"
+          ],
+          "order": 11
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Collimator indicator @  270"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Collimator indicator @  270"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Accessory trays"
+          ],
+          "order": 12
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Accessory trays"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Accessory trays"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (symmetric) :: X"
+          ],
+          "order": 13
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (symmetric) :: X"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (symmetric) :: X"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (symmetric) :: Y"
+          ],
+          "order": 14
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (symmetric) :: Y"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (symmetric) :: Y"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)"
+          ],
+          "order": 15
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)"
+          ],
+          "order": 16
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X1 :: (-2)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)"
+          ],
+          "order": 17
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)"
+          ],
+          "order": 18
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: X2 (-2)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)"
+          ],
+          "order": 19
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)"
+          ],
+          "order": 20
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y1 (-10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)"
+          ],
+          "order": 21
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)"
+          ],
+          "order": 22
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Jaw position (asymmetric) :: Y2 (-10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Crosshair centering"
+          ],
+          "order": 23
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Crosshair centering"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Crosshair centering"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: LNG (+10)"
+          ],
+          "order": 24
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: LNG (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: LNG (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: LNG (-10)"
+          ],
+          "order": 25
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: LNG (-10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: LNG (-10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: LAT (-10)"
+          ],
+          "order": 26
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: LAT (-10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: LAT (-10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: LAT (+10)"
+          ],
+          "order": 27
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: LAT (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: LAT (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: VRT (+10)"
+          ],
+          "order": 28
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: VRT (+10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: VRT (+10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: VRT (-10)"
+          ],
+          "order": 29
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: VRT (-10)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: VRT (-10)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Couch position :: ROT (90)"
+          ],
+          "order": 30
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Couch position :: ROT (90)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Couch position :: ROT (90)"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Wedge placement accuracy"
+          ],
+          "order": 31
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Wedge placement accuracy"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Wedge placement accuracy"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Compensator placement accuracy"
+          ],
+          "order": 32
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Compensator placement accuracy"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Compensator placement accuracy"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Latching of wedges, blocking tray"
+          ],
+          "order": 33
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Latching of wedges, blocking tray"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Latching of wedges, blocking tray"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Left Axial"
+          ],
+          "order": 34
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Left Axial"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Left Axial"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Left Coronal"
+          ],
+          "order": 35
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Left Coronal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Left Coronal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Top Axial"
+          ],
+          "order": 36
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Top Axial"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Top Axial"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Top Sagittal"
+          ],
+          "order": 37
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Top Sagittal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Top Sagittal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Right Axial"
+          ],
+          "order": 38
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Right Axial"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Right Axial"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Right Coronal"
+          ],
+          "order": 39
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Right Coronal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Right Coronal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Lasers :: Inferior Sagittal"
+          ],
+          "order": 40
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Lasers :: Inferior Sagittal"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Lasers :: Inferior Sagittal"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: ODI @ 80"
+          ],
+          "order": 1
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: ODI @ 80"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: ODI @ 80"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: ODI @ 90"
+          ],
+          "order": 2
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: ODI @ 90"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: ODI @ 90"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_gating"
+          ],
+          "test": [
+            "TG-142 Monthly :: Phase, Amplitude beam control"
+          ],
+          "order": 2
+        },
+        "natural_key": [
+          "tg_142_monthly_gating",
+          "TG-142 Monthly :: Phase, Amplitude beam control"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Phase, Amplitude beam control"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_gating"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_gating"
+          ],
+          "test": [
+            "TG-142 Monthly :: In-room respiratory monitoring"
+          ],
+          "order": 3
+        },
+        "natural_key": [
+          "tg_142_monthly_gating",
+          "TG-142 Monthly :: In-room respiratory monitoring"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: In-room respiratory monitoring"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_gating"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: ODI @ 100"
+          ],
+          "order": 3
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: ODI @ 100"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: ODI @ 100"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Gantry indicator @  0"
+          ],
+          "order": 4
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Gantry indicator @  0"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Gantry indicator @  0"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_gating"
+          ],
+          "test": [
+            "TG-142 Monthly :: Gating Interlock"
+          ],
+          "order": 4
+        },
+        "natural_key": [
+          "tg_142_monthly_gating",
+          "TG-142 Monthly :: Gating Interlock"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Gating Interlock"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_gating"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_safety"
+          ],
+          "test": [
+            "TG-142 Monthly :: Safety :: Laserguard"
+          ],
+          "order": 5
+        },
+        "natural_key": [
+          "tg_142_monthly_safety",
+          "TG-142 Monthly :: Safety :: Laserguard"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Safety :: Laserguard"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_safety"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Gantry indicator @  90"
+          ],
+          "order": 5
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Gantry indicator @  90"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Gantry indicator @  90"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Gantry indicator @  180"
+          ],
+          "order": 6
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Gantry indicator @  180"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Gantry indicator @  180"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.testlistmembership",
+        "fields": {
+          "test_list": [
+            "tg_142_monthly_mechanical"
+          ],
+          "test": [
+            "TG-142 Monthly :: Gantry indicator @  270"
+          ],
+          "order": 7
+        },
+        "natural_key": [
+          "tg_142_monthly_mechanical",
+          "TG-142 Monthly :: Gantry indicator @  270"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [
+            [
+              "TG-142 Monthly :: Gantry indicator @  270"
+            ]
+          ],
+          "test_lists": [
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "sublists": [
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg_142_monthly"
+          ],
+          "child": [
+            "tg_142_monthly_safety"
+          ],
+          "collapse": false,
+          "order": 1
+        },
+        "natural_key": [
+          "tg_142_monthly",
+          "tg_142_monthly_safety"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg_142_monthly"
+            ],
+            [
+              "tg_142_monthly_safety"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg_142_monthly"
+          ],
+          "child": [
+            "tg_142_monthly_mechanical"
+          ],
+          "collapse": false,
+          "order": 2
+        },
+        "natural_key": [
+          "tg_142_monthly",
+          "tg_142_monthly_mechanical"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg_142_monthly"
+            ],
+            [
+              "tg_142_monthly_mechanical"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.sublist",
+        "fields": {
+          "parent": [
+            "tg_142_monthly"
+          ],
+          "child": [
+            "tg_142_monthly_gating"
+          ],
+          "collapse": false,
+          "order": 3
+        },
+        "natural_key": [
+          "tg_142_monthly",
+          "tg_142_monthly_gating"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [
+            [
+              "tg_142_monthly_gating"
+            ],
+            [
+              "tg_142_monthly"
+            ]
+          ],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ],
+    "tolerances": [
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Boolean(Action on fail)",
+          "type": "boolean",
+          "act_low": null,
+          "tol_low": null,
+          "tol_high": null,
+          "act_high": null,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Boolean(Action on fail)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-2.000, -1.000, 1.000, 2.000)",
+          "type": "absolute",
+          "act_low": -2.0,
+          "tol_low": -1.0,
+          "tol_high": 1.0,
+          "act_high": 2.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-2.000, -1.000, 1.000, 2.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-1.000, -0.500, 0.500, 1.000)",
+          "type": "absolute",
+          "act_low": -1.0,
+          "tol_low": -0.5,
+          "tol_high": 0.5,
+          "act_high": 1.0,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-1.000, -0.500, 0.500, 1.000)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-0.500, -0.450, 0.450, 0.500)",
+          "type": "absolute",
+          "act_low": -0.5,
+          "tol_low": -0.45,
+          "tol_high": 0.45,
+          "act_high": 0.5,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-0.500, -0.450, 0.450, 0.500)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      },
+      {
+        "model": "qa.tolerance",
+        "fields": {
+          "name": "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)",
+          "type": "absolute",
+          "act_low": -0.5,
+          "tol_low": -0.25,
+          "tol_high": 0.25,
+          "act_high": 0.5,
+          "mc_pass_choices": "",
+          "mc_tol_choices": "",
+          "bool_warning_only": false
+        },
+        "natural_key": [
+          "Absolute(-0.500 <= -0.250 <= Ref <= 0.250 <= 0.500)"
+        ],
+        "is_soft_merge_okay": true,
+        "dependencies": {
+          "tests": [],
+          "test_lists": [],
+          "categories": [],
+          "references": [],
+          "unit_classes": [],
+          "test_list_memberships": [],
+          "sublists": [],
+          "tolerances": []
+        }
+      }
+    ]
+  }
+}
